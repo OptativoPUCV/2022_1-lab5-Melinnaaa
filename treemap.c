@@ -100,31 +100,8 @@ void removeNode(TreeMap * tree, TreeNode* node)
 {
     if (tree == NULL || tree->root == NULL) return;
     if (searchTreeMap(tree, node->pair->key) == NULL) return;
-    if (node->right == NULL && node->left != NULL)//Un hijo con rama izquierda no nula
-    {
-        if (tree->lower_than(node->parent->pair->key, node->left->pair->key) == 1)
-        {
-            node->parent->right = node->left;
-        }
-        else
-        {
-            node->parent->left = node->left;
-        }
-        free(node);
-    }
-    else if (node->right != NULL && node->left == NULL) //Un hijo con rama derecha no nula
-    {
-        if (tree->lower_than(node->parent->pair->key, node->right->pair->key) == 1)
-        {
-            node->parent->right = node->right;
-        }
-        else
-        {
-            node->parent->left = node->right;
-        }
-        free(node);
-    }
-    else if (node->right == NULL && node->left == NULL)
+   
+    if (node->right == NULL && node->left == NULL)
     {
         if(node->parent == NULL) // Caso en donde solo exista la raiz
         {
@@ -139,6 +116,57 @@ void removeNode(TreeMap * tree, TreeNode* node)
             node->parent->right = NULL;
         }
         free(node);
+        return;
+    }
+    else if (node->right != NULL && node->left != NULL)//Caso 2 hijos
+    {
+        TreeNode* tmp = node->right;
+        tmp  = minimum(tmp);
+        node->pair->key = tmp->pair->key;
+        node->pair->value = tmp->pair->value;
+        removeNode(tree, tmp);
+    }
+    else
+    { 
+      TreeNode* child;
+      if (node->left != NULL && node->right == NULL)//Un hijo con rama izquierda no nula
+      {
+          child = node->left;
+          child->parent = node->parent;//Se actualiza el padre del hijo.
+          if(node->parent == NULL) 
+          {
+              tree->root = child; 
+          }
+          else if (node->parent->left == node)
+          {
+              node->parent->left = child;
+          }
+          else
+          {
+            node->parent->right = child;
+          }
+          free(node);
+          return;
+      }
+      else if (node->right != NULL && node->left == NULL) //Un hijo con rama derecha no nula
+      {
+          child = node->right;
+          child->parent = node->parent;
+          if(node->parent == NULL) 
+          {
+              tree->root = node->right; 
+          }
+          else if (node->parent->right == node)
+          {
+              node->parent->right = child;
+          }
+          else
+          {
+              node->parent->left = child;
+          }
+          free(node);
+          return;
+      }    
     }
 }
 

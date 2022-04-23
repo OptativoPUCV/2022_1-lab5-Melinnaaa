@@ -7,3 +7,1332 @@ test.c:6:8: error: '_strdup' redeclared without dllimport attribute: previous dl
 cc1.exe: all warnings being treated as errors
 Compilation failed
 bb75d31
+Thu Apr 21 19:20:39 UTC 2022: 
+ tests:  3|8
+total_score: 0/70
+2834a96
+Thu Apr 21 19:21:10 UTC 2022: 
+ treemap.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:4:0:
+treemap.c: In function ‘createTreeMap’:
+treemap.c:45:5: error: ‘new’ undeclared (first use in this function); did you mean ‘getw’?
+     new->lower_than = lower_than;
+     ^~~
+     getw
+treemap.c:45:5: note: each undeclared identifier is reported only once for each function it appears in
+Compilation failed
+0f294ea
+Thu Apr 21 19:21:20 UTC 2022: 
+ treemap.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  4|7
+total_score: 5/70
+7e043bf
+Thu Apr 21 19:51:08 UTC 2022: 
+ treemap.c | 28 ++++++++++++++++++++++++----
+ 1 file changed, 24 insertions(+), 4 deletions(-)
+ tests:  11|6
+total_score: 15/70
+11f3188
+Thu Apr 21 19:55:31 UTC 2022: 
+ treemap.c | 5 ++++-
+ 1 file changed, 4 insertions(+), 1 deletion(-)
+ tests:  11|6
+total_score: 15/70
+190e489
+Thu Apr 21 20:15:19 UTC 2022: 
+ treemap.c | 30 ++++++++++++++++++++++++++++--
+ 1 file changed, 28 insertions(+), 2 deletions(-)
+ tests:  0|0
+cdfaa59
+Thu Apr 21 20:16:05 UTC 2022: 
+ treemap.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  12|6
+total_score: 15/70
+4277e00
+Thu Apr 21 20:17:28 UTC 2022: 
+ treemap.c | 1 +
+ 1 file changed, 1 insertion(+)
+ tests:  13|5
+total_score: 25/70
+123d8d8
+Thu Apr 21 20:24:50 UTC 2022: 
+ treemap.c | 11 +++++++++--
+ 1 file changed, 9 insertions(+), 2 deletions(-)
+ tests:  15|4
+total_score: 25/70
+f331c3b
+Thu Apr 21 20:32:59 UTC 2022: 
+ treemap.c | 13 +++++++++++--
+ 1 file changed, 11 insertions(+), 2 deletions(-)
+ tests:  17|3
+total_score: 30/70
+0a52067
+Thu Apr 21 20:50:46 UTC 2022: 
+ treemap.c | 28 ++++++++++++++++++++++++++--
+ 1 file changed, 26 insertions(+), 2 deletions(-)
+ tests:  18|3
+total_score: 30/70
+812a5d3
+Thu Apr 21 20:53:10 UTC 2022: 
+ treemap.c | 6 +++++-
+ 1 file changed, 5 insertions(+), 1 deletion(-)
+ tests:  18|3
+total_score: 30/70
+3f0533c
+Thu Apr 21 20:53:24 UTC 2022: 
+ treemap.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  20|3
+total_score: 35/70
+28e7f63
+Thu Apr 21 20:54:04 UTC 2022: 
+ treemap.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  20|3
+total_score: 35/70
+4da6082
+Thu Apr 21 20:57:16 UTC 2022: 
+ treemap.c | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+ tests:  18|3
+total_score: 35/70
+1a8e7c3
+Thu Apr 21 20:57:36 UTC 2022: 
+ treemap.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  20|3
+total_score: 30/70
+7ee5199
+Thu Apr 21 20:57:58 UTC 2022: 
+ treemap.c | 3 ++-
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+ tests:  0|0
+e3e2fa6
+Thu Apr 21 20:59:43 UTC 2022: 
+ treemap.c | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+ tests:  18|3
+total_score: 30/70
+c6c9490
+Thu Apr 21 21:00:35 UTC 2022: 
+ treemap.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  18|3
+total_score: 35/70
+10f39ee
+Thu Apr 21 21:01:37 UTC 2022: 
+ treemap.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  20|3
+total_score: 35/70
+4908580
+Thu Apr 21 21:02:06 UTC 2022: 
+ treemap.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  18|3
+total_score: 30/70
+8fea366
+Thu Apr 21 21:02:13 UTC 2022: 
+ treemap.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  18|3
+total_score: 30/70
+e4e2ad2
+Thu Apr 21 21:02:24 UTC 2022: 
+ treemap.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  18|3
+total_score: 30/70
+d5f394e
+Thu Apr 21 21:02:29 UTC 2022: 
+ treemap.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  18|3
+total_score: 30/70
+11232ec
+Thu Apr 21 21:03:22 UTC 2022: 
+ treemap.c | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+In file included from test.c:4:0:
+treemap.c: In function ‘upperBound’:
+treemap.c:147:74: error: suggest parentheses around ‘&&’ within ‘||’ [-Werror=parentheses]
+         if ((ub == NULL) || (tree->lower_than(key, tmp->pair->key) == 1) && (tree->lower_than(ub->pair->key, tmp->pair->key) == 1 ))
+                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+cc1: all warnings being treated as errors
+Compilation failed
+ce1c0d8
+Thu Apr 21 21:03:42 UTC 2022: 
+ treemap.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  18|3
+total_score: 30/70
+ceb6dfc
+Thu Apr 21 21:03:53 UTC 2022: 
+ treemap.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  18|3
+total_score: 30/70
+203c94c
+Thu Apr 21 21:05:03 UTC 2022: 
+ treemap.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  0|0
+9a01beb
+Thu Apr 21 21:09:52 UTC 2022: 
+ treemap.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  0|0
+acbacd1
+Thu Apr 21 21:10:04 UTC 2022: 
+ treemap.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  18|3
+total_score: 30/70
+df126a0
+Thu Apr 21 21:10:56 UTC 2022: 
+ treemap.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  18|3
+total_score: 30/70
+42f91fc
+Thu Apr 21 21:11:23 UTC 2022: 
+ treemap.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  0|0
+43a4f90
+Thu Apr 21 21:11:50 UTC 2022: 
+ treemap.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  21|2
+total_score: 40/70
+e7d737c
+Thu Apr 21 21:37:56 UTC 2022: 
+ treemap.c | 19 ++++++++++++++++++-
+ 1 file changed, 18 insertions(+), 1 deletion(-)
+ tests:  21|2
+total_score: 40/70
+1244ba4
+Thu Apr 21 21:42:21 UTC 2022: 
+ treemap.c | 6 ++++++
+ 1 file changed, 6 insertions(+)
+ tests:  24|0
+b1fc707
+Thu Apr 21 21:45:24 UTC 2022: 
+ treemap.c | 4 +++-
+ 1 file changed, 3 insertions(+), 1 deletion(-)
+ tests:  23|2
+total_score: 45/70
+7ddbb72
+Thu Apr 21 21:46:24 UTC 2022: 
+ treemap.c | 1 +
+ 1 file changed, 1 insertion(+)
+ tests:  23|2
+total_score: 45/70
+3d9d1f7
+Thu Apr 21 21:49:32 UTC 2022: 
+ treemap.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  24|2
+total_score: 45/70
+726fbf6
+Thu Apr 21 21:49:45 UTC 2022: 
+ treemap.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  24|2
+total_score: 45/70
+f14dc95
+Thu Apr 21 21:50:09 UTC 2022: 
+ treemap.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  24|2
+total_score: 45/70
+2a84f15
+Thu Apr 21 21:52:40 UTC 2022: 
+ treemap.c | 15 ++++++++-------
+ 1 file changed, 8 insertions(+), 7 deletions(-)
+ tests:  24|2
+total_score: 45/70
+c54a337
+Thu Apr 21 21:54:40 UTC 2022: 
+ treemap.c | 3 ++-
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+ tests:  24|2
+total_score: 45/70
+7065a06
+Thu Apr 21 21:54:49 UTC 2022: 
+ treemap.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  23|2
+total_score: 45/70
+e331c8c
+Thu Apr 21 21:55:58 UTC 2022: 
+ treemap.c | 1 +
+ 1 file changed, 1 insertion(+)
+ tests:  23|2
+total_score: 45/70
+b0b52bf
+Thu Apr 21 21:56:15 UTC 2022: 
+ treemap.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  23|2
+total_score: 45/70
+dc86f14
+Thu Apr 21 21:57:36 UTC 2022: 
+ treemap.c | 5 ++---
+ 1 file changed, 2 insertions(+), 3 deletions(-)
+ tests:  23|2
+total_score: 45/70
+a04391e
+Thu Apr 21 21:58:09 UTC 2022: 
+ treemap.c | 8 ++++----
+ 1 file changed, 4 insertions(+), 4 deletions(-)
+ tests:  0|2
+c52af33
+Thu Apr 21 21:58:28 UTC 2022: 
+ treemap.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  23|2
+total_score: 45/70
+e91f78e
+Thu Apr 21 21:58:35 UTC 2022: 
+ treemap.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  0|0
+total_score: 45/70
+0d71c25
+Thu Apr 21 21:59:47 UTC 2022: 
+ treemap.c | 1 -
+ 1 file changed, 1 deletion(-)
+ tests:  24|0
+e99751a
+Thu Apr 21 22:00:19 UTC 2022: 
+ treemap.c | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+ tests:  24|2
+total_score: 45/70
+3c381ca
+Thu Apr 21 22:03:39 UTC 2022: 
+ treemap.c | 5 +++--
+ 1 file changed, 3 insertions(+), 2 deletions(-)
+ tests:  23|2
+total_score: 45/70
+1e35a70
+Thu Apr 21 22:05:23 UTC 2022: 
+ treemap.c | 3 +--
+ 1 file changed, 1 insertion(+), 2 deletions(-)
+In file included from test.c:4:0:
+treemap.c: In function ‘nextTreeMap’:
+treemap.c:209:9: error: expected expression before ‘)’ token
+     if ()
+         ^
+treemap.c:211:1: error: control reaches end of non-void function [-Werror=return-type]
+ }
+ ^
+cc1: all warnings being treated as errors
+Compilation failed
+de0fd86
+Thu Apr 21 22:05:29 UTC 2022: 
+ treemap.c | 1 -
+ 1 file changed, 1 deletion(-)
+ tests:  23|2
+total_score: 45/70
+750b3f1
+Thu Apr 21 22:23:21 UTC 2022: 
+ treemap.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  23|2
+total_score: 45/70
+bdb64b5
+Thu Apr 21 22:23:45 UTC 2022: 
+ treemap.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  0|0
+total_score: 45/70
+91cafcf
+Thu Apr 21 22:24:15 UTC 2022: 
+ treemap.c | 1 +
+ 1 file changed, 1 insertion(+)
+ tests:  24|0
+total_score: 45/70
+050fad5
+Thu Apr 21 22:25:15 UTC 2022: 
+ treemap.c | 6 +++---
+ 1 file changed, 3 insertions(+), 3 deletions(-)
+ tests:  0|2
+03fee29
+Thu Apr 21 22:27:05 UTC 2022: 
+ treemap.c | 5 +++--
+ 1 file changed, 3 insertions(+), 2 deletions(-)
+ tests:  0|2
+total_score: 45/70
+bdecc49
+Thu Apr 21 22:27:13 UTC 2022: 
+ treemap.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  24|2
+total_score: 45/70
+3d7521a
+Thu Apr 21 22:27:37 UTC 2022: 
+ treemap.c | 1 +
+ 1 file changed, 1 insertion(+)
+ tests:  24|2
+total_score: 45/70
+3ee0532
+Thu Apr 21 22:27:54 UTC 2022: 
+ treemap.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  23|2
+total_score: 45/70
+77648db
+Thu Apr 21 22:28:07 UTC 2022: 
+ treemap.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  0|0
+total_score: 45/70
+697ac28
+Thu Apr 21 22:29:10 UTC 2022: 
+ treemap.c | 1 +
+ 1 file changed, 1 insertion(+)
+ tests:  24|0
+total_score: 45/70
+8601e8b
+Thu Apr 21 22:29:34 UTC 2022: 
+ treemap.c | 1 +
+ 1 file changed, 1 insertion(+)
+ tests:  0|0
+total_score: 45/70
+6ed3be4
+Thu Apr 21 22:29:59 UTC 2022: 
+ treemap.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  0|0
+d069c12
+Thu Apr 21 22:30:15 UTC 2022: 
+ treemap.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  0|2
+total_score: 45/70
+1a0300c
+Thu Apr 21 22:30:50 UTC 2022: 
+ treemap.c | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+ tests:  0|2
+total_score: 45/70
+caa334f
+Thu Apr 21 22:31:04 UTC 2022: 
+ treemap.c | 1 -
+ 1 file changed, 1 deletion(-)
+ tests:  24|0
+total_score: 45/70
+32e3eab
+Thu Apr 21 22:31:20 UTC 2022: 
+ treemap.c | 1 +
+ 1 file changed, 1 insertion(+)
+ tests:  0|0
+5ddbd9a
+Thu Apr 21 22:31:59 UTC 2022: 
+ treemap.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  24|0
+total_score: 45/70
+aae38f9
+Thu Apr 21 22:32:46 UTC 2022: 
+ treemap.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  0|2
+total_score: 45/70
+dcca69b
+Thu Apr 21 22:33:47 UTC 2022: 
+ treemap.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  24|0
+5390f2b
+Thu Apr 21 22:35:24 UTC 2022: 
+ treemap.c | 1 -
+ 1 file changed, 1 deletion(-)
+ tests:  0|0
+total_score: 45/70
+c5b95f8
+Thu Apr 21 22:56:26 UTC 2022: 
+ treemap.c | 44 +++++++++++++++++++++++++++++++++++++++++++-
+ 1 file changed, 43 insertions(+), 1 deletion(-)
+In file included from test.c:4:0:
+treemap.c: In function ‘removeNode’:
+treemap.c:101:15: error: unused variable ‘tmp’ [-Werror=unused-variable]
+     TreeNode* tmp = node;
+               ^~~
+cc1: all warnings being treated as errors
+Compilation failed
+ddda7aa
+Thu Apr 21 22:56:39 UTC 2022: 
+ treemap.c | 1 -
+ 1 file changed, 1 deletion(-)
+ tests:  0|0
+a829e3e
+Fri Apr 22 02:38:00 UTC 2022: 
+ treemap.c | 1 -
+ 1 file changed, 1 deletion(-)
+ tests:  25|2
+ac5e15d
+Fri Apr 22 02:43:44 UTC 2022: 
+ treemap.c | 8 +++++---
+ 1 file changed, 5 insertions(+), 3 deletions(-)
+In file included from test.c:4:0:
+treemap.c:22:35: error: stray ‘\340’ in program
+ int is_equal(TreeMap* tree, void* ඞ, void* key2){
+                                   ^
+treemap.c:22:36: error: stray ‘\266’ in program
+ int is_equal(TreeMap* tree, void* ඞ, void* key2){
+                                    ^
+treemap.c:22:37: error: stray ‘\236’ in program
+ int is_equal(TreeMap* tree, void* ඞ, void* key2){
+                                     ^
+treemap.c: In function ‘is_equal’:
+treemap.c:22:1: error: parameter name omitted
+ int is_equal(TreeMap* tree, void* ඞ, void* key2){
+ ^~~
+treemap.c:23:25: error: stray ‘\340’ in program
+     if(tree->lower_than(ඞ,key2)==0 &&  tree->lower_than(key2,ඞ)==0)
+                         ^
+treemap.c:23:26: error: stray ‘\266’ in program
+     if(tree->lower_than(ඞ,key2)==0 &&  tree->lower_than(key2,ඞ)==0)
+                          ^
+treemap.c:23:27: error: stray ‘\236’ in program
+     if(tree->lower_than(ඞ,key2)==0 &&  tree->lower_than(key2,ඞ)==0)
+                           ^
+treemap.c:23:28: error: expected expression before ‘,’ token
+     if(tree->lower_than(ඞ,key2)==0 &&  tree->lower_than(key2,ඞ)==0)
+                            ^
+treemap.c:23:64: error: stray ‘\340’ in program
+     if(tree->lower_than(ඞ,key2)==0 &&  tree->lower_than(key2,ඞ)==0)
+                                                                ^
+treemap.c:23:65: error: stray ‘\266’ in program
+     if(tree->lower_than(ඞ,key2)==0 &&  tree->lower_than(key2,ඞ)==0)
+                                                                 ^
+treemap.c:23:66: error: stray ‘\236’ in program
+     if(tree->lower_than(ඞ,key2)==0 &&  tree->lower_than(key2,ඞ)==0)
+                                                                  ^
+treemap.c:28:1: error: control reaches end of non-void function [-Werror=return-type]
+ }
+ ^
+cc1: all warnings being treated as errors
+Compilation failed
+aea63c3
+Fri Apr 22 02:44:34 UTC 2022: 
+ treemap.c | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+ tests:  0|2
+total_score: 50/70
+cb05369
+Fri Apr 22 04:23:05 UTC 2022: 
+ treemap.c | 3 ++-
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+ tests:  25|2
+total_score: 50/70
+112cb56
+Fri Apr 22 04:23:35 UTC 2022: 
+ treemap.c | 1 -
+ 1 file changed, 1 deletion(-)
+ tests:  0|2
+424f702
+Fri Apr 22 04:24:06 UTC 2022: 
+ treemap.c | 1 +
+ 1 file changed, 1 insertion(+)
+ tests:  0|0
+total_score: 50/70
+603b6dc
+Fri Apr 22 04:24:45 UTC 2022: 
+ treemap.c | 1 -
+ 1 file changed, 1 deletion(-)
+ tests:  25|0
+04085bb
+Fri Apr 22 04:46:53 UTC 2022: 
+ treemap.c | 3 ++-
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+ tests:  0|2
+total_score: 50/70
+4f013ff
+Fri Apr 22 04:52:01 UTC 2022: 
+ treemap.c | 12 ++++++++----
+ 1 file changed, 8 insertions(+), 4 deletions(-)
+ tests:  24|2
+total_score: 50/70
+08105de
+Fri Apr 22 04:57:14 UTC 2022: 
+ treemap.c | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+ tests:  24|2
+total_score: 50/70
+6ba4ee3
+Fri Apr 22 05:00:16 UTC 2022: 
+ treemap.c | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+In file included from test.c:4:0:
+treemap.c: In function ‘nextTreeMap’:
+treemap.c:243:98: error: ‘key’ undeclared (first use in this function); did you mean ‘key_t’?
+         while (tree->lower_than(tree->current->pair->key, tmp->pair->key) == 1 || is_equal(tree, key, tmp->pair->key)
+                                                                                                  ^~~
+                                                                                                  key_t
+treemap.c:243:98: note: each undeclared identifier is reported only once for each function it appears in
+treemap.c:244:9: error: expected ‘)’ before ‘{’ token
+         {
+         ^
+In file included from test.c:4:0:
+treemap.c:256:5: error: expected expression before ‘}’ token
+     }
+     ^
+Compilation failed
+5fba4bf
+Fri Apr 22 05:00:24 UTC 2022: 
+ treemap.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:4:0:
+treemap.c: In function ‘nextTreeMap’:
+treemap.c:243:98: error: ‘key’ undeclared (first use in this function); did you mean ‘key_t’?
+         while (tree->lower_than(tree->current->pair->key, tmp->pair->key) == 1 || is_equal(tree, key, tmp->pair->key))
+                                                                                                  ^~~
+                                                                                                  key_t
+treemap.c:243:98: note: each undeclared identifier is reported only once for each function it appears in
+Compilation failed
+4afa491
+Fri Apr 22 05:00:47 UTC 2022: 
+ treemap.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  24|2
+total_score: 50/70
+6bb5fbd
+Fri Apr 22 05:02:01 UTC 2022: 
+ treemap.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  24|2
+total_score: 50/70
+2c2316c
+Fri Apr 22 05:03:21 UTC 2022: 
+ treemap.c | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+ tests:  24|2
+total_score: 50/70
+f5b174c
+Fri Apr 22 05:03:59 UTC 2022: 
+ treemap.c | 5 +++--
+ 1 file changed, 3 insertions(+), 2 deletions(-)
+ tests:  24|2
+total_score: 50/70
+26fca74
+Fri Apr 22 05:04:23 UTC 2022: 
+ treemap.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  24|2
+total_score: 50/70
+bb2ce8d
+Fri Apr 22 05:04:31 UTC 2022: 
+ treemap.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  24|2
+total_score: 50/70
+5526850
+Fri Apr 22 05:07:53 UTC 2022: 
+ treemap.c | 19 ++++++++++++++++---
+ 1 file changed, 16 insertions(+), 3 deletions(-)
+ tests:  27|1
+total_score: 60/70
+3246b86
+Fri Apr 22 05:08:39 UTC 2022: 
+ treemap.c | 4 +---
+ 1 file changed, 1 insertion(+), 3 deletions(-)
+ tests:  27|1
+total_score: 60/70
+65b3336
+Fri Apr 22 05:12:50 UTC 2022: 
+ treemap.c | 20 +++-----------------
+ 1 file changed, 3 insertions(+), 17 deletions(-)
+ tests:  24|2
+total_score: 50/70
+c390b09
+Fri Apr 22 05:13:03 UTC 2022: 
+ treemap.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  24|2
+total_score: 50/70
+2462d82
+Fri Apr 22 05:13:09 UTC 2022: 
+ treemap.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  24|2
+total_score: 50/70
+a02e401
+Fri Apr 22 05:13:16 UTC 2022: 
+ treemap.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  24|2
+total_score: 50/70
+886aca5
+Fri Apr 22 05:14:21 UTC 2022: 
+ treemap.c | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+ tests:  24|2
+total_score: 50/70
+90b71c0
+Fri Apr 22 05:15:27 UTC 2022: 
+ treemap.c | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+ tests:  24|2
+total_score: 50/70
+f3ffbc0
+Fri Apr 22 05:15:38 UTC 2022: 
+ treemap.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  27|1
+total_score: 60/70
+7f20c08
+Fri Apr 22 05:17:05 UTC 2022: 
+ treemap.c | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+ tests:  24|2
+total_score: 50/70
+2d1d1fe
+Fri Apr 22 05:17:12 UTC 2022: 
+ treemap.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  27|1
+total_score: 60/70
+5aa9654
+Fri Apr 22 05:32:15 UTC 2022: 
+ treemap.c | 3 +--
+ 1 file changed, 1 insertion(+), 2 deletions(-)
+ tests:  27|1
+total_score: 60/70
+7e5137f
+Fri Apr 22 05:32:29 UTC 2022: 
+ treemap.c | 3 +--
+ 1 file changed, 1 insertion(+), 2 deletions(-)
+ tests:  27|1
+total_score: 60/70
+60b3569
+Fri Apr 22 05:32:50 UTC 2022: 
+ treemap.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  27|1
+total_score: 60/70
+746ba6e
+Fri Apr 22 06:03:06 UTC 2022: 
+ treemap.c | 1 -
+ 1 file changed, 1 deletion(-)
+ tests:  27|1
+total_score: 60/70
+4deb241
+Fri Apr 22 23:19:54 UTC 2022: 
+ treemap.c | 14 ++++++++++++++
+ 1 file changed, 14 insertions(+)
+In file included from test.c:4:0:
+treemap.c:98:12: error: redefinition of ‘minimum’
+ TreeNode * minimum(TreeNode * x)
+            ^~~~~~~
+treemap.c:87:12: note: previous definition of ‘minimum’ was here
+ TreeNode * minimum(TreeNode * x)
+            ^~~~~~~
+Compilation failed
+caab22e
+Fri Apr 22 23:21:30 UTC 2022: 
+ treemap.c | 6 +++---
+ 1 file changed, 3 insertions(+), 3 deletions(-)
+ tests:  27|1
+total_score: 60/70
+4c091e5
+Fri Apr 22 23:28:01 UTC 2022: 
+ treemap.c | 7 ++++++-
+ 1 file changed, 6 insertions(+), 1 deletion(-)
+ tests:  27|1
+total_score: 60/70
+e044688
+Fri Apr 22 23:30:59 UTC 2022: 
+ treemap.c | 10 +++++-----
+ 1 file changed, 5 insertions(+), 5 deletions(-)
+ tests:  27|1
+total_score: 60/70
+6f26b3f
+Fri Apr 22 23:36:13 UTC 2022: 
+ treemap.c | 3 ++-
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+ tests:  27|1
+total_score: 60/70
+8bb3682
+Fri Apr 22 23:38:58 UTC 2022: 
+ treemap.c | 36 ++++++++++--------------------------
+ 1 file changed, 10 insertions(+), 26 deletions(-)
+ tests:  0|0
+b5bab12
+Fri Apr 22 23:42:36 UTC 2022: 
+ treemap.c | 30 ++++++++++++++++++++++--------
+ 1 file changed, 22 insertions(+), 8 deletions(-)
+In file included from test.c:4:0:
+treemap.c: In function ‘removeNode’:
+treemap.c:149:9: error: ‘else’ without a previous ‘if’
+         else if (node->right != NULL && node->left == NULL) //Un hijo con rama derecha no nula
+         ^~~~
+Compilation failed
+aac839c
+Fri Apr 22 23:42:59 UTC 2022: 
+ treemap.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  27|1
+total_score: 60/70
+d44793c
+Fri Apr 22 23:43:46 UTC 2022: 
+ treemap.c | 8 ++++++--
+ 1 file changed, 6 insertions(+), 2 deletions(-)
+ tests:  27|1
+total_score: 60/70
+4159aa0
+Fri Apr 22 23:45:59 UTC 2022: 
+ treemap.c | 3 +--
+ 1 file changed, 1 insertion(+), 2 deletions(-)
+ tests:  27|1
+total_score: 60/70
+9b4a171
+Fri Apr 22 23:50:39 UTC 2022: 
+ treemap.c | 8 ++++----
+ 1 file changed, 4 insertions(+), 4 deletions(-)
+ tests:  0|0
+0ec43f0
+Fri Apr 22 23:50:54 UTC 2022: 
+ treemap.c | 10 ++--------
+ 1 file changed, 2 insertions(+), 8 deletions(-)
+ tests:  0|0
+5c83186
+Fri Apr 22 23:54:18 UTC 2022: 
+ treemap.c | 6 +++++-
+ 1 file changed, 5 insertions(+), 1 deletion(-)
+ tests:  0|0
+66f8ea8
+Fri Apr 22 23:54:33 UTC 2022: 
+ treemap.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  27|1
+total_score: 60/70
+0ab7add
+Fri Apr 22 23:55:08 UTC 2022: 
+ treemap.c | 4 ++++
+ 1 file changed, 4 insertions(+)
+ tests:  27|1
+total_score: 60/70
+49590e1
+Fri Apr 22 23:56:41 UTC 2022: 
+ treemap.c | 3 +--
+ 1 file changed, 1 insertion(+), 2 deletions(-)
+ tests:  0|0
+d0511af
+Fri Apr 22 23:57:18 UTC 2022: 
+ treemap.c | 3 ++-
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+ tests:  27|1
+total_score: 60/70
+a84f511
+Fri Apr 22 23:57:31 UTC 2022: 
+ treemap.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  27|1
+total_score: 60/70
+4928cc8
+Fri Apr 22 23:57:42 UTC 2022: 
+ treemap.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  27|1
+total_score: 60/70
+d11d2ef
+Fri Apr 22 23:57:58 UTC 2022: 
+ treemap.c | 1 +
+ 1 file changed, 1 insertion(+)
+ tests:  0|0
+d20b0f1
+Fri Apr 22 23:58:06 UTC 2022: 
+ treemap.c | 1 -
+ 1 file changed, 1 deletion(-)
+ tests:  27|1
+total_score: 60/70
+ed2329d
+Fri Apr 22 23:59:08 UTC 2022: 
+ treemap.c | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+In file included from test.c:4:0:
+treemap.c: In function ‘removeNode’:
+treemap.c:154:9: error: expected ‘)’ before ‘{’ token
+         {
+         ^
+treemap.c:165:5: error: expected expression before ‘}’ token
+     }
+     ^
+Compilation failed
+632d05a
+Fri Apr 22 23:59:16 UTC 2022: 
+ treemap.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  27|1
+total_score: 60/70
+af8c40a
+Sat Apr 23 00:00:45 UTC 2022: 
+ treemap.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  27|1
+total_score: 60/70
+55e06d1
+Sat Apr 23 00:01:05 UTC 2022: 
+ treemap.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  27|1
+total_score: 60/70
+852745f
+Sat Apr 23 00:04:51 UTC 2022: 
+ treemap.c | 12 ++++++++++--
+ 1 file changed, 10 insertions(+), 2 deletions(-)
+ tests:  27|1
+total_score: 60/70
+65a62bc
+Sat Apr 23 00:06:22 UTC 2022: 
+ treemap.c | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+ tests:  27|1
+total_score: 60/70
+fbd1b92
+Sat Apr 23 00:08:01 UTC 2022: 
+ treemap.c | 5 ++---
+ 1 file changed, 2 insertions(+), 3 deletions(-)
+ tests:  27|1
+total_score: 60/70
+1a84270
+Sat Apr 23 00:09:36 UTC 2022: 
+ treemap.c | 10 ++--------
+ 1 file changed, 2 insertions(+), 8 deletions(-)
+ tests:  0|0
+ff6ee37
+Sat Apr 23 00:23:14 UTC 2022: 
+ treemap.c | 32 +++++++-------------------------
+ 1 file changed, 7 insertions(+), 25 deletions(-)
+ tests:  0|0
+b6787ce
+Sat Apr 23 00:24:09 UTC 2022: 
+ treemap.c | 2 --
+ 1 file changed, 2 deletions(-)
+ tests:  28|1
+total_score: 65/70
+11273a4
+Sat Apr 23 00:25:39 UTC 2022: 
+ treemap.c | 41 ++++++++++++++++++++++++++++++++++-------
+ 1 file changed, 34 insertions(+), 7 deletions(-)
+In file included from test.c:4:0:
+treemap.c: In function ‘removeNode’:
+treemap.c:134:9: error: expected ‘;’ before ‘TreeNode’
+         TreeNode* tmp = tree->current;
+         ^~~~~~~~
+treemap.c:135:9: error: ‘tmp’ undeclared (first use in this function); did you mean ‘bcmp’?
+         tmp  = maximun(tmp);
+         ^~~
+         bcmp
+treemap.c:135:9: note: each undeclared identifier is reported only once for each function it appears in
+Compilation failed
+92e7a7b
+Sat Apr 23 00:28:16 UTC 2022: 
+ treemap.c | 41 ++++++++---------------------------------
+ 1 file changed, 8 insertions(+), 33 deletions(-)
+ tests:  0|0
+f2d61f8
+Sat Apr 23 00:28:40 UTC 2022: 
+ treemap.c | 1 +
+ 1 file changed, 1 insertion(+)
+ tests:  0|0
+3a59457
+Sat Apr 23 00:28:48 UTC 2022: 
+ treemap.c | 1 -
+ 1 file changed, 1 deletion(-)
+ tests:  0|0
+eeff008
+Sat Apr 23 00:29:37 UTC 2022: 
+ treemap.c | 3 +--
+ 1 file changed, 1 insertion(+), 2 deletions(-)
+ tests:  0|0
+6373dd5
+Sat Apr 23 00:30:09 UTC 2022: 
+ treemap.c | 1 -
+ 1 file changed, 1 deletion(-)
+ tests:  28|1
+total_score: 65/70
+7da5fa7
+Sat Apr 23 00:33:08 UTC 2022: 
+ treemap.c | 24 +++++++++++++++++-------
+ 1 file changed, 17 insertions(+), 7 deletions(-)
+ tests:  27|1
+total_score: 60/70
+750c5c9
+Sat Apr 23 00:33:59 UTC 2022: 
+ treemap.c | 4 ++++
+ 1 file changed, 4 insertions(+)
+ tests:  27|1
+total_score: 60/70
+065de8e
+Sat Apr 23 00:34:31 UTC 2022: 
+ treemap.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  27|1
+total_score: 60/70
+e7e5da3
+Sat Apr 23 00:35:35 UTC 2022: 
+ treemap.c | 35 +++++++++++++++++++++++------------
+ 1 file changed, 23 insertions(+), 12 deletions(-)
+ tests:  27|1
+total_score: 60/70
+0d9f4fb
+Sat Apr 23 00:36:09 UTC 2022: 
+ treemap.c | 5 +++--
+ 1 file changed, 3 insertions(+), 2 deletions(-)
+ tests:  27|1
+total_score: 60/70
+c4d03ae
+Sat Apr 23 00:36:42 UTC 2022: 
+ treemap.c | 2 ++
+ 1 file changed, 2 insertions(+)
+ tests:  27|1
+total_score: 60/70
+db5d0ca
+Sat Apr 23 00:37:00 UTC 2022: 
+ treemap.c | 7 +------
+ 1 file changed, 1 insertion(+), 6 deletions(-)
+ tests:  27|1
+total_score: 60/70
+57678bf
+Sat Apr 23 00:37:21 UTC 2022: 
+ treemap.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  27|1
+total_score: 60/70
+2a7b2e3
+Sat Apr 23 00:37:37 UTC 2022: 
+ treemap.c | 7 ++++++-
+ 1 file changed, 6 insertions(+), 1 deletion(-)
+ tests:  27|1
+total_score: 60/70
+c278c16
+Sat Apr 23 00:40:40 UTC 2022: 
+ treemap.c | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+ tests:  27|1
+total_score: 60/70
+bd301dd
+Sat Apr 23 00:41:37 UTC 2022: 
+ treemap.c | 15 ++-------------
+ 1 file changed, 2 insertions(+), 13 deletions(-)
+ tests:  27|1
+total_score: 60/70
+bd3a8a5
+Sat Apr 23 00:41:47 UTC 2022: 
+ treemap.c | 1 -
+ 1 file changed, 1 deletion(-)
+ tests:  27|1
+total_score: 60/70
+e43802b
+Sat Apr 23 00:43:10 UTC 2022: 
+ treemap.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  27|1
+total_score: 60/70
+2e5a0de
+Sat Apr 23 00:43:20 UTC 2022: 
+ treemap.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  27|1
+total_score: 60/70
+b51b042
+Sat Apr 23 00:48:57 UTC 2022: 
+ treemap.c | 14 +++++++++++---
+ 1 file changed, 11 insertions(+), 3 deletions(-)
+ tests:  27|1
+total_score: 60/70
+90b115f
+Sat Apr 23 00:49:30 UTC 2022: 
+ treemap.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  27|1
+total_score: 60/70
+0817bc5
+Sat Apr 23 00:49:42 UTC 2022: 
+ treemap.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  27|1
+total_score: 60/70
+986bad4
+Sat Apr 23 00:50:44 UTC 2022: 
+ treemap.c | 6 +++---
+ 1 file changed, 3 insertions(+), 3 deletions(-)
+ tests:  27|1
+total_score: 60/70
+a97d0b2
+Sat Apr 23 00:51:28 UTC 2022: 
+ treemap.c | 3 ++-
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+In file included from test.c:4:0:
+treemap.c: In function ‘removeNode’:
+treemap.c:153:16: error: ‘nodo’ undeclared (first use in this function); did you mean ‘node’?
+           free(nodo);
+                ^~~~
+                node
+treemap.c:153:16: note: each undeclared identifier is reported only once for each function it appears in
+Compilation failed
+58335f0
+Sat Apr 23 00:51:35 UTC 2022: 
+ treemap.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  27|1
+total_score: 60/70
+579d7e7
+Sat Apr 23 00:52:10 UTC 2022: 
+ treemap.c | 1 +
+ 1 file changed, 1 insertion(+)
+ tests:  27|1
+total_score: 60/70
+3c39b74
+Sat Apr 23 00:57:09 UTC 2022: 
+ treemap.c | 5 ++---
+ 1 file changed, 2 insertions(+), 3 deletions(-)
+In file included from test.c:4:0:
+treemap.c: In function ‘removeNode’:
+treemap.c:147:31: error: expected expression before ‘=’ token
+                 node->parent- = node->left;
+                               ^
+Compilation failed
+6f1cb30
+Sat Apr 23 00:57:16 UTC 2022: 
+ treemap.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  0|0
+575ba2f
+Sat Apr 23 00:59:59 UTC 2022: 
+ treemap.c | 35 +++++++++++------------------------
+ 1 file changed, 11 insertions(+), 24 deletions(-)
+ tests:  28|1
+total_score: 65/70
+3111492
+Sat Apr 23 01:00:51 UTC 2022: 
+ treemap.c | 14 +++++++-------
+ 1 file changed, 7 insertions(+), 7 deletions(-)
+ tests:  28|1
+total_score: 65/70
+003b11f
+Sat Apr 23 01:04:00 UTC 2022: 
+ treemap.c | 36 +++++++++++++++++++++++++++++++++++-
+ 1 file changed, 35 insertions(+), 1 deletion(-)
+ tests:  27|1
+total_score: 60/70
+b3168b0
+Sat Apr 23 01:04:57 UTC 2022: 
+ treemap.c | 2 ++
+ 1 file changed, 2 insertions(+)
+ tests:  28|1
+total_score: 65/70
+6db6061
+Sat Apr 23 01:05:05 UTC 2022: 
+ treemap.c | 20 --------------------
+ 1 file changed, 20 deletions(-)
+ tests:  28|1
+total_score: 65/70
+b4e5d07
+Sat Apr 23 01:05:40 UTC 2022: 
+ treemap.c | 1 +
+ 1 file changed, 1 insertion(+)
+ tests:  0|0
+34badce
+Sat Apr 23 01:05:50 UTC 2022: 
+ treemap.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  28|1
+total_score: 65/70
+f823dae
+Sat Apr 23 01:06:06 UTC 2022: 
+ treemap.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:4:0:
+treemap.c: In function ‘removeNode’:
+treemap.c:133:29: error: expected ‘)’ before ‘;’ token
+         tmp  = minimum((tmp);
+                             ^
+treemap.c:137:5: error: expected ‘;’ before ‘}’ token
+     }
+     ^
+Compilation failed
+b3440bd
+Sat Apr 23 01:06:19 UTC 2022: 
+ treemap.c | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+ tests:  28|1
+total_score: 65/70
+156896f
+Sat Apr 23 01:08:32 UTC 2022: 
+ treemap.c | 7 ++++---
+ 1 file changed, 4 insertions(+), 3 deletions(-)
+ tests:  29|0
+total_score: 70/70
+aed9784
+Sat Apr 23 01:12:18 UTC 2022: 
+ treemap.c | 1 +
+ 1 file changed, 1 insertion(+)
+ tests:  0|0
+87dd29b
+Sat Apr 23 01:12:33 UTC 2022: 
+ treemap.c | 1 -
+ 1 file changed, 1 deletion(-)
+ tests:  0|0
+e0b3b7c
+Sat Apr 23 01:13:33 UTC 2022: 
+ treemap.c | 7 ++++++-
+ 1 file changed, 6 insertions(+), 1 deletion(-)
+ tests:  29|0
+total_score: 70/70
+383c209
+Sat Apr 23 01:13:38 UTC 2022: 
+ treemap.c | 1 +
+ 1 file changed, 1 insertion(+)
+ tests:  0|0
+6723982
+Sat Apr 23 01:13:50 UTC 2022: 
+ treemap.c | 3 ++-
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+ tests:  0|0
+1441e3a
+Sat Apr 23 01:14:05 UTC 2022: 
+ treemap.c | 1 -
+ 1 file changed, 1 deletion(-)
+ tests:  29|0
+total_score: 70/70
+966945c
+Sat Apr 23 01:17:37 UTC 2022: 
+ treemap.c | Unmerged
+ treemap.c | 100 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 1 file changed, 100 insertions(+)
+In file included from test.c:4:0:
+treemap.c:87:1: error: version control conflict marker in file
+ <<<<<<< HEAD
+ ^~~~~~~
+treemap.c:103:9: error: invalid suffix "b8a36055e07c3c0190ee53b01c0a5d7252b0723" on integer constant
+ >>>>>>> 6b8a36055e07c3c0190ee53b01c0a5d7252b0723
+         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+treemap.c:156:9: error: invalid suffix "b8a36055e07c3c0190ee53b01c0a5d7252b0723" on integer constant
+ >>>>>>> 6b8a36055e07c3c0190ee53b01c0a5d7252b0723
+         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+treemap.c:227:9: error: invalid suffix "b8a36055e07c3c0190ee53b01c0a5d7252b0723" on integer constant
+ >>>>>>> 6b8a36055e07c3c0190ee53b01c0a5d7252b0723
+         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from test.c:4:0:
+treemap.c:357:9: error: invalid suffix "b8a36055e07c3c0190ee53b01c0a5d7252b0723" on integer constant
+ >>>>>>> 6b8a36055e07c3c0190ee53b01c0a5d7252b0723
+         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+treemap.c:393:9: error: invalid suffix "b8a36055e07c3c0190ee53b01c0a5d7252b0723" on integer constant
+ >>>>>>> 6b8a36055e07c3c0190ee53b01c0a5d7252b0723
+         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Compilation failed
+0acb590
+Sat Apr 23 01:24:42 UTC 2022: 
+ treemap.c | 5 -----
+ 1 file changed, 5 deletions(-)
+In file included from test.c:4:0:
+treemap.c:87:1: error: version control conflict marker in file
+ <<<<<<< HEAD
+ ^~~~~~~
+treemap.c:103:9: error: invalid suffix "b8a36055e07c3c0190ee53b01c0a5d7252b0723" on integer constant
+ >>>>>>> 6b8a36055e07c3c0190ee53b01c0a5d7252b0723
+         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+treemap.c:156:9: error: invalid suffix "b8a36055e07c3c0190ee53b01c0a5d7252b0723" on integer constant
+ >>>>>>> 6b8a36055e07c3c0190ee53b01c0a5d7252b0723
+         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+treemap.c:227:9: error: invalid suffix "b8a36055e07c3c0190ee53b01c0a5d7252b0723" on integer constant
+ >>>>>>> 6b8a36055e07c3c0190ee53b01c0a5d7252b0723
+         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from test.c:4:0:
+treemap.c:357:9: error: invalid suffix "b8a36055e07c3c0190ee53b01c0a5d7252b0723" on integer constant
+ >>>>>>> 6b8a36055e07c3c0190ee53b01c0a5d7252b0723
+         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Compilation failed
+facc3b8
+Sat Apr 23 01:24:52 UTC 2022: 
+ treemap.c | 1 +
+ 1 file changed, 1 insertion(+)
+In file included from test.c:4:0:
+treemap.c:87:1: error: version control conflict marker in file
+ <<<<<<< HEAD
+ ^~~~~~~
+treemap.c:103:9: error: invalid suffix "b8a36055e07c3c0190ee53b01c0a5d7252b0723" on integer constant
+ >>>>>>> 6b8a36055e07c3c0190ee53b01c0a5d7252b0723
+         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+treemap.c:156:9: error: invalid suffix "b8a36055e07c3c0190ee53b01c0a5d7252b0723" on integer constant
+ >>>>>>> 6b8a36055e07c3c0190ee53b01c0a5d7252b0723
+         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+treemap.c:227:9: error: invalid suffix "b8a36055e07c3c0190ee53b01c0a5d7252b0723" on integer constant
+ >>>>>>> 6b8a36055e07c3c0190ee53b01c0a5d7252b0723
+         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from test.c:4:0:
+treemap.c:357:9: error: invalid suffix "b8a36055e07c3c0190ee53b01c0a5d7252b0723" on integer constant
+ >>>>>>> 6b8a36055e07c3c0190ee53b01c0a5d7252b0723
+         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Compilation failed
+f357d7d
+Sat Apr 23 01:26:08 UTC 2022: 
+ treemap.c | 9 +--------
+ 1 file changed, 1 insertion(+), 8 deletions(-)
+In file included from test.c:4:0:
+treemap.c:87:1: error: version control conflict marker in file
+ <<<<<<< HEAD
+ ^~~~~~~
+treemap.c:103:9: error: invalid suffix "b8a36055e07c3c0190ee53b01c0a5d7252b0723" on integer constant
+ >>>>>>> 6b8a36055e07c3c0190ee53b01c0a5d7252b0723
+         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Compilation failed
+446f689
+Sat Apr 23 01:26:23 UTC 2022: 
+ treemap.c | 3 ---
+ 1 file changed, 3 deletions(-)
+In file included from test.c:4:0:
+treemap.c: In function ‘maximun’:
+treemap.c:105:12: error: redefinition of ‘minimum’
+ TreeNode * minimum(TreeNode * x)
+            ^~~~~~~
+treemap.c:94:12: note: previous definition of ‘minimum’ was here
+ TreeNode * minimum(TreeNode * x)
+            ^~~~~~~
+treemap.c: In function ‘minimum’:
+treemap.c:109:1: error: version control conflict marker in file
+ <<<<<<< HEAD
+ ^~~~~~~
+treemap.c: In function ‘removeNode’:
+treemap.c:124:1: error: expected expression before ‘void’
+ void removeNode(TreeMap * tree, TreeNode* node)
+ ^~~~
+treemap.c: In function ‘searchTreeMap’:
+treemap.c:251:1: error: version control conflict marker in file
+ <<<<<<< HEAD
+ ^~~~~~~
+In file included from test.c:4:0:
+treemap.c: In function ‘firstTreeMap’:
+treemap.c:299:1: error: version control conflict marker in file
+ =======
+ ^~~~~~~
+treemap.c: In function ‘maximun’:
+treemap.c:307:8: error: redefinition of ‘upperBound’
+ Pair * upperBound(TreeMap * tree, void* key)
+        ^~~~~~~~~~
+In file included from test.c:4:0:
+treemap.c:257:8: note: previous definition of ‘upperBound’ was here
+ Pair * upperBound(TreeMap * tree, void* key)
+        ^~~~~~~~~~
+In file included from test.c:4:0:
+treemap.c:339:8: error: redefinition of ‘firstTreeMap’
+ Pair * firstTreeMap(TreeMap * tree)
+        ^~~~~~~~~~~~
+treemap.c:289:8: note: previous definition of ‘firstTreeMap’ was here
+ Pair * firstTreeMap(TreeMap * tree)
+        ^~~~~~~~~~~~
+test.c:606:1: error: expected declaration or statement at end of input
+ }
+ ^
+test.c:606:1: error: expected declaration or statement at end of input
+Compilation failed
+9fb2af5
